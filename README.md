@@ -9,9 +9,9 @@ Repository ini berisi penyelesaian tugas Assignment 1 untuk mengimplementasikan 
 
 - **Case 2: 3-Step Data Pipeline (`02_pipeline.py`)**
   Simulasi alur pemrosesan data otomatis (*Multiple Shot*) untuk menangani pesan konfirmasi donatur. Pipeline ini terdiri dari 3 tahapan:
-  1. **Get Raw Data:** Menerima teks pesan konfirmasi donasi yang tidak beraturan dari lapangan/WhatsApp.
+  1. **Get Raw Data:** Menerima teks pesan konfirmasi donasi.
   2. **Summarize:** Menggunakan *Standard Completion* untuk merangkum pesan mentah menjadi laporan operasional formal.
-  3. **Structured Output:** Menggunakan fitur `.parse()` dan Pydantic untuk mengekstrak laporan tersebut menjadi format JSON/Dictionary yang terstruktur dan siap dimasukkan ke dalam *database* donatur.
+  3. **Structured Output:** Menggunakan `.parse()` dan Pydantic untuk mengekstrak laporan tersebut menjadi format JSON/Dictionary yang terstruktur dan dimasukkan ke dalam *database* donatur.
 
 ## 🚀 Cara Menjalankan
 
